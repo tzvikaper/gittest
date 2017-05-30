@@ -65,11 +65,11 @@ public class SimilarController {
 	Status result;
 	if(totalRequests!=0)
 	{
-	 result= new Status(totalWords,totalRequests,(int)sumOfProcessingTimesNs/totalRequests);
+		result= new Status(totalWords,totalRequests,(int)sumOfProcessingTimesNs/totalRequests);
 	}
 	else
 	{
-	 result= new Status(totalWords,0,0);
+		result= new Status(totalWords,0,0);
 	}
         return result;
     }
