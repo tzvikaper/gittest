@@ -1,5 +1,4 @@
 package hello;
-
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -56,7 +55,6 @@ public class SimilarController {
 		String[] arr = new String[0];
 		result = new Similar(arr);
 	}
-	
 	long endTime = System.nanoTime();
         IncreamentRequestsCount(endTime-statTime);
 	return result;
