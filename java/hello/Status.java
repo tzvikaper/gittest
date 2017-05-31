@@ -1,7 +1,6 @@
 package hello;
 
 public class Status {
-
     private int totalWords;
     private int totalRequests;
     private int avgProcessingTimeNs;
