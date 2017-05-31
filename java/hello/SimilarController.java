@@ -39,7 +39,6 @@ public class SimilarController {
     @RequestMapping("/api/v1/similar")
     public Similar similar(@RequestParam(value="word", defaultValue="stressed") String name) {
 	long statTime = System.nanoTime();
-
         String orderedWord = OrderWord(name);
 	Similar result;
 
